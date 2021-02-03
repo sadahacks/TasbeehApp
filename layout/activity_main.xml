@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/ic_tasbeeh_count">
+
+    <TextView
+        android:id="@+id/tvCounter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Tasbeeh :"
+        android:gravity="center"
+        android:elevation="20dp"
+        android:textStyle="bold"
+        android:textColor="#030D67"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnCounter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnReset"
+
+        android:layout_below="@+id/tvCounter"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="-7dp"
+        android:alpha="0.1" />
+
+    <TextView
+        android:id="@+id/text_reset"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#030D67"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Reset" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:alpha="0" />
+
+</RelativeLayout>
