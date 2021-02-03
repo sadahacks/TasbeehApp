@@ -1,5 +1,7 @@
 # TasbeehApp
 
+This is an Android Studio project.
+
 
 <img src="Images/Tasbeeh%201.jpeg">
 
